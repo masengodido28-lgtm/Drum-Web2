@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+section{
+    margin: 0 10px;
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.hero{
+    background-image: url(/assets/background.png); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 110vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 250px 10px;
+}
+
+.hero h1{
+    color: goldenrod;
+    font-size: 6rem;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    transform: translateY(-45px);
+
+}
+
+.hero p{
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    transform: translateY(-45px)
+}
+
+.hero button{
+    background: transparent;
+    color: white;
+    border: 2px solid rgba(255,255,255,0.8);
+    padding: 12px 28px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.hero button:hover{
+    background: goldenrod;
+    color: black;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+.nav-buttons a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  text-decoration: none;
+  color: goldenrod;
+
+  background: transparent;
+  border: 2px solid black;
+  border-radius: 25px;
+
+  transition: all 0.3s ease;
+  font-family: sans-serif;
+}
+
+/* hover effect */
+.nav-buttons a:hover {
+  background: white;
+  color: black;
+}
