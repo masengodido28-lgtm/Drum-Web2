@@ -1,0 +1,74 @@
+/* ===========================
+   GOOGLE FONT
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* ===========================
+   VARIABLES
+=========================== */
+
+:root{
+
+    --primary:#00C857;
+    --primary-light:#36e87a;
+
+    --dark:#0B0F17;
+    --dark-card:#161B22;
+
+    --white:#F5F5F5;
+    --grey:#AAB2BF;
+
+    --border:#2B313D;
+
+}
+
+/* ===========================
+   GLOBAL
+=========================== */
+
+html{
+
+scroll-behavior:smooth;
+
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:var(--dark);
+
+    color:var(--white);
+
+}
+
+img{
+
+    max-width:100%;
+
+    display:block;
+
+}
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+button{
+
+    font-family:inherit;
+
+    cursor:pointer;
+
+    border:none;
+
+}
